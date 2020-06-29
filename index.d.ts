@@ -71,6 +71,7 @@ export interface AxiosRequestConfig {
   proxy?: AxiosProxyConfig | false;
   cancelToken?: CancelToken;
   decompress?: boolean;
+  localAddress?: string;
 }
 
 export interface AxiosResponse<T = any>  {
